@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "caramel dâu",
+    "countLike": 100,
+    "time": "20 phút",
+    "own": {
+      "id": 1,
+      "usename": "oanh",
+      "img": "assets/images/chef_1.png"
+    },
+    "img": "assets/images/food_1.png",
+    "ingredienMain": ["dâu"],
+    "ingredientsSub": ["Sữa nguyên kem", "kem tươi", "đường"],
+    "intro": [
+      "Lorem Ipsum tempor incididunt ut labore et dolore,in voluptate velit esse cillum dolore eu fugiat nulla pariatur?",
+      "Lorem Ipsum tempor incididunt ut labore et dolore,in voluptate velit esse cillum dolore eu fugiat nulla pariatur?",
+      "Lorem Ipsum tempor incididunt ut labore et dolore,in voluptate velit esse cillum dolore eu fugiat nulla pariatur?"
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "uses": {
+          "id": 1,
+          "usename": "oanh",
+          "img": "assets/images/chef_1.png"
+        },
+        "comments": "Cong thuc rat hay",
+        "reply": [
+          {
+            "uses": {
+              "id": 2,
+              "usename": "trung",
+              "img": "assets/images/chef_2.png"
+            },
+            "comments": "Cong thuc rat tuyet"
+          },
+          {
+            "uses": {
+              "id": 3,
+              "usename": "tri",
+              "img": "assets/images/chef_3.png"
+            },
+            "comments": "Cam on cong thuc cua ban"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "uses": {
+          "id": 2,
+          "usename": "trung",
+          "img": "assets/images/chef_2.png"
+        },
+        "comments": "Cong thuc hay"
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 import { useRoutes } from "react-router-dom";
 import Home from "src/pages/site/Home";
-import Treding from "src/pages/site/Trending";
+import Trending from "src/pages/site/Trending";
 
 const Router = () => {
     const routes = useRoutes(
@@ -19,7 +19,7 @@ const Router = () => {
             { path: "/category/:id" },
             {
                 path: "/trending",
-                element: <Treding />
+                element: <Trending />
             },
             { path: "/search/:keyword" },
             { path: "/detail/:id" },

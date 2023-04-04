@@ -1,14 +1,16 @@
-import { Layout } from 'antd';
 import React from 'react';
+import FooterComponent from 'src/components/FooterComponent';
 import HeaderComponent from 'src/components/HeaderComponent';
 
-const Format = (props) => {
+const Format = ({ children }) => {
     return (<>
         <HeaderComponent />
         <div className='app'>
-            {props.children}
+            <main>
+                {children}
+            </main>
         </div>
-
+        <FooterComponent />
     </>);
 }
 

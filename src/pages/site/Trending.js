@@ -1,9 +1,13 @@
 import React from 'react'
+import FilterComponent from 'src/components/FilterComponent';
+import Format from 'src/layout/format';
 
-const Treding = () => {
+const Trending = () => {
     return (<>
-        Trending
+        <Format>
+            <FilterComponent />
+        </Format>
     </>);
 }
 
-export default Treding;
+export default Trending;

@@ -24,6 +24,7 @@ const CategoryComponent = () => {
   });
   return (
     <>
+      <h1 className="title">Danh mục món ăn</h1>
       <Swiper
         slidesPerView={1}
         loop={true}

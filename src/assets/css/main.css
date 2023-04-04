@@ -4,6 +4,10 @@
 /* Component */
 @import "./component/cardCategory.css";
 @import "./component/header.css";
+@import "./component/footer.css";
 @import "./component/categories.css";
+@import "./component/banner.css";
+@import "./component/cardFood.css";
 
 /* Page*/
+@import "./page/treding.css";

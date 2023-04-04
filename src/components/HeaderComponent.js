@@ -22,7 +22,7 @@ const HeaderComponent = () => {
     ]
     const menuItem = menu.map((item) => {
         return (
-            <Col key={item.id} sm={12} lg={12} xl={8} xxl={5} >
+            <Col key={item.id} xs={12} sm={12} lg={12} xl={8} xxl={5} >
                 <Link className={`${window.location.pathname.includes(item.href) || (window.location.pathname === "/" && item.href === "/home") ? "header__menu-item active" : "header__menu-item"}  `} to={item.href}>{item.name}</Link>
             </Col >
         )
@@ -30,17 +30,17 @@ const HeaderComponent = () => {
     return (<>
         <header className='header'>
             <Row className='header__menu' gutter={[{}, { sm: '20px' }]} justify={'space-around'} align={'middle'}>
-                <Col sm={24} lg={2} xl={1} style={{ textAlign: "center", borderBottom: "1px soild #000" }}>
+                <Col xs={24} sm={24} lg={2} xl={1} style={{ textAlign: "center", borderBottom: "1px soild #000" }}>
                     <img src={logo} className="header__menu-img" />
                 </Col>
-                <Col style={{ marginLeft: "30px" }} sm={14} lg={8} xl={10} xxl={12}>
+                <Col style={{ marginLeft: "30px" }} xs={14} sm={14} lg={8} xl={10} xxl={12}>
                     <Row gutter={[{ lg: "30" }, { lg: "24" }]}>
                         {menuItem}
                     </Row>
                 </Col>
-                <Col sm={22} lg={10} xl={8} xxl={6} style={{ display: 'flex' }} >
+                <Col xs={22} sm={22} lg={10} xl={8} xxl={6} style={{ display: 'flex' }} >
                     <div className="header__menu-search">
-                        <input placeholder='Nhập món ăn muốn tìm kiếm...' />
+                        <input placeholder='Tìm kiếm trên website...' />
                         <AiOutlineSearch className="header__menu-search--icon" />
                     </div>
                     <div className="header__menu-noti">
